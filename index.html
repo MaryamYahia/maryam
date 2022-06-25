@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta.charset="UTF-8". />
@@ -56,29 +56,30 @@
         footer
     </div>
     <audio src=""></audio>
-    <form action="" method="get">
+    <form action="" method="get" novalidate target="_blank">
         <p>
-            <label>username</label>
-            <input type="username" required . placeholder="username" . name="user" value="mariam" readonly>
+            <label for="uname">username</label>
+            <input id="uname" type="username" required . placeholder="username" . name="user" value="mariam" readonly>
         </p>
 
         <p>
-            <label> color </label>
-            <input type="color">
+            <label for="co"> color </label>
+            <input id="co" type="color">
         </p>
 
         <p>
-            <label>email </label>
-            <input type="email" placeholder="email" . name="mail">
+            <label for="mail">email </label>
+            <input id="mail" type="email" placeholder="email" . name="mail">
         </p>
 
         <p>
-            <label>range </label>
-            <input type="range" name="range" min="0" max="100" step="10" value="0">
+            <label for="ra">range </label>
+            <input id="ra" type="range" name="range" min="0" max="100" step="10" value="0">
         </p>
         <p>
-            <label>password</label>
-            <input type="password" required . placeholder="password" . name="pass" minlength="10" maxlength="20">
+            <label for="pass">password</label>
+            <input id="pass" type="password" required . placeholder="password" . name="pass" minlength="10"
+                maxlength="20">
         </p>
         <hr>
         <div>
@@ -86,25 +87,25 @@
             <label for="win">html</label>
         </div>
         <div>
-            <input type="radio" name="os" value="css">
-            <label>css</label>
+            <input id="css" type="radio" name="os" value="css">
+            <label for="css">css</label>
         </div>
         <div>
-            <input type="radio" name="os" value="gavascrept">
-            <label>gavascrept</label>
+            <input id="gava" type="radio" name="os" value="gavascrept">
+            <label for="gava">gavascrept</label>
         </div>
         <hr>
         <div>
             <input id="win2" type="checkbox" name="os" value="html">
-            <label for="win">html</label>
+            <label for="win2">html</label>
         </div>
         <div>
-            <input type="checkbox" name="os" value="css">
-            <label>css</label>
+            <input id="css2" type="checkbox" name="os" value="css">
+            <label for="css2">css</label>
         </div>
         <div>
-            <input type="checkbox" name="os" value="gavascrept">
-            <label>gavascrept</label>
+            <input id="gava2" type="checkbox" name="os" value="gavascrept">
+            <label for="gava2">gavascrept</label>
         </div>
         <hr>
         <label for="novel">choose novel</label>
@@ -123,21 +124,60 @@
 
         </select>
         <hr>
+        <textarea name="subject" cols="30" rows="10" placeholder="text test"></textarea>
+        <hr>
+        <div>
+            <label for="Up">Upload</label>
+            <input id="Up" type="file">
+        </div>
+        <hr>
+        <div>
+            <label for="se">search</label>
+            <input id="se" type="search">
+        </div>
+        <hr>
+        <div>
+            <label for="Ur">URL</label>
+            <input id="Ur" type="url">
+        </div>
+        <hr>
+        <div>
+            <label for="Da">Date</label>
+            <input id="Da" type="date">
+
+            <hr>
+        </div>
+        <input list="programming" name="prog">
+        <label for="programming"></label>
+        <datalist id="programming">
+            <option value="pyshon">
+            <option value="PHP">
+            <option value="C">
+            <option value="C++">
+            <option value="html">
+        </datalist>
+        <hr>
         <p>
             <input type="reset">
         </p>
         <p>
-            <input type="submit">
+            <input type="submit" value="submit">
         </p>
+    </form>
+    <q>This Is wise word</q>
+    <blockquote>This Is wise word</blockquote>
+    <putton>click</putton>
+    <p>
+        <pdi> السلام </pdi> 2 welcome
+    </p>
+    <pre>
+        new line 
+        p
+        new line
+    </pre>
+    <iframe title="el zero" src="https://elzero.org/"></iframe>
 
-
-
-
-        <!-- </form>
-    <iframe width="420" height="315" src="https://www.youtube.com/watch?v=WcZ8lTRTNM0">
-    </iframe> -->
-
-        <!-- <h1>Novel Store</h1>
+    <!-- <h1>Novel Store</h1>
 <P> This Is<span> My</span> <b>Novel Store</b>, Welcome </P>
     <p>This Is Second Paragraph <br>test</p>
     <hr>
@@ -145,7 +185,7 @@
       <P> This Is My <strong>Novel Store</strong>, Welcome </P>
      <P> This Is My <i>Novel Store</i>, Welcome </P>
     <P> This Is My <strong>Novel Store</strong>, <mark>Welcome</mark> </P> -->
-        <!-- <a href="https://www.google.com" . Title="Go To Google">GOOGLE</a>
+    <!-- <a href="https://www.google.com" . Title="Go To Google">GOOGLE</a>
     <a href="#mero" . Title="Go To mero">mero paragraph</a>
     <a href="mailto:o@nn.sa">contact me</a>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet deleniti fugiat soluta minus. Adipisci
@@ -167,12 +207,12 @@
         modi nihil, molestiae aspernatur laborum sequi, omnis sapiente odio, similique repellat quae accusamus sunt
         suscipit!</p>
     <img src="https://commons.wikimediarg/wiki/File:Octicons-mark-github.sv.og" alt=""> -->
-        <!-- <audio src=""></audio>
+    <!-- <audio src=""></audio>
     <video src=""></video>
     <iframe width="420" height="315"
     src="https://www.youtube.com/embed/tgbNymZ7vqY">
     </iframe> -->
-        <!-- <h1 style="background-color:rgb(26, 13, 204);">mariam</h1> 
+    <!-- <h1 style="background-color:rgb(26, 13, 204);">mariam</h1> 
     Ul = Unordared list
     Li= list Item
     OL =ordared list
@@ -180,7 +220,7 @@
     start = start from position
     type = type of ordering
     -->
-        <!-- <ul>
+    <!-- <ul>
         <li>html</li>
         <li>css</li>
         <li>jss
