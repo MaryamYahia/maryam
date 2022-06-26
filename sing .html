@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>sing </title>
+</head>
+
+<body>
+    <form action="" method="get" novalidate target="_blank">
+        <div>
+            <label for="Na">Name</label>
+            <input id="Na" type="Name" required placeholder="Name">
+        </div>
+        <hr>
+        <div>
+            <label for="Da">Date Of Birth :</label>
+            <input id="Da" type="date" required>
+        </div>
+        <hr>
+        <div>
+            <h3>Gender</h3>
+            <input id="Ma" type="radio" name="os" value="Male">
+            <label for="Ma">Male</label>
+        </div>
+        <div>
+            <input id="Fe" type="radio" name="os" value="Female">
+            <label for="Fe">Female</label>
+        </div>
+        <hr>
+        <div>
+            <label>Age</label>
+            <input type="range" name="Age" min="10" max="100" step="10" value="0">
+        </div>
+        <label for="Hotel">Choose Hotel</label>
+        <input list="Hotel" name="Ho">
+        <datalist id="Hotel">
+            <option value="Albatros Citadel Resort - By Pickalbatros">
+            <option value="New Eagles Aqua Park Resort">
+            <option value="Sindbad Club">
+            <option value="Sunny Seaside Villa">
+        </datalist>
+        <hr>
+        <div>
+            <label for="mail">Email</label>
+            <input type="email" placeholder="Email" name="mail">
+        </div>
+    </form>
+</body>
+
+</html>
