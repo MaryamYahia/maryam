@@ -2,14 +2,14 @@
 <html>
 
 <head>
-    <title>sing </title>
+    <title>Login</title>
 </head>
 
 <body>
-    <form action="" method="get" novalidate target="_blank">
+    <form action="" method="get">
         <div>
             <label for="Na">Name</label>
-            <input id="Na" type="Name" required placeholder="Name">
+            <input id="Na" type="Name" required . placeholder="Name">
         </div>
         <hr>
         <div>
@@ -29,10 +29,11 @@
         <hr>
         <div>
             <label>Age</label>
-            <input type="range" name="Age" min="10" max="100" step="10" value="0">
+            <input type="range" name="Age" min="10" max="100" step="10" value="0" required>
         </div>
+        <hr>
         <label for="Hotel">Choose Hotel</label>
-        <input list="Hotel" name="Ho">
+        <input list="Hotel" name="Ho" required>
         <datalist id="Hotel">
             <option value="Albatros Citadel Resort - By Pickalbatros">
             <option value="New Eagles Aqua Park Resort">
@@ -42,7 +43,11 @@
         <hr>
         <div>
             <label for="mail">Email</label>
-            <input type="email" placeholder="Email" name="mail">
+            <input id="mail" type="email" placeholder="Email" name="mail" required>
+        </div>
+        <hr>
+        <div>
+            <input type="submit" value="submit">
         </div>
     </form>
 </body>
