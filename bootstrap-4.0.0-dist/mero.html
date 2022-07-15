@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <!-- <div class="container">
+    <div class="container">
         <div class="row">
             <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-12">test1</div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-12">test2</div>
@@ -87,10 +87,10 @@
             </P>
             <div class="btn btn-primary">submit</div>
         </div>
-    </div> 
+    </div>
 
     <div class="badge badge-primary">test</div>
-    <div class="btn btn-primary">test</div>-->
+    <div class="btn btn-primary">test</div>
 
     <!-- 
         carousel
@@ -99,31 +99,175 @@
         ol
         images
         next
- 
-     -->
-    <div id=" slide" class=" carousel slide">
+    -->
+    <div id="slide" class="carousel slide container w-75">
         <ol class="carousel-indicators">
-            <li data-target="#slide" tada-slide-to="0" class="active"></li>
-            <li data-target="#slide" tada-slide-to="1"></li>
-            <li data-target="#slide" tada-slide-to="2"></li>
+            <li data-target="#slide" data-slide-to="0" class="active"></li>
+            <li data-target="#slide" data-slide-to="1"></li>
+            <li data-target="#slide" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-
-            <div class="carousel-item active">
+            <div class="carousel-item">
                 <img src="1.jpg" alt="" class="w-100">
+                <div class="carousel-caption">
+                    <h3>Los Angeles</h3>
+                    <p>We had such a great time in LA!</p>
+                </div>
+            </div>
+            <div class="carousel-item active">
+                <img src="2.jpg" alt="" class="w-100">
+                <div class="carousel-caption">
+                    <h3>Chicago</h3>
+                    <p>We had such a great time in Chicago!</p>
+                </div>
             </div>
             <div class="carousel-item">
                 <img src="3.jpg" alt="" class="w-100">
+                <div class="carousel-caption">
+                    <h3>New York</h3>
+                    <p>We had such a great time in New York!</p>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="4.jpg" alt="" class="w-100">
+
+        </div>
+        <div>
+            <a href="#slide" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+            <a href="#slide" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+        </div>
+
+
+    </div>
+    <br>
+    <div class="dropdown">
+        <h1>
+            <div class="badge badge-success dropdown-toggle" id="x" data-toggle="dropdown">test</div>
+            <div class="dropdown-menu" aria-labelledby="x">
+                <a href="#" class="dropdown-item"> test1</a>
+                <a href="#" class="dropdown-item"> test2</a>
+                <a href="#" class="dropdown-item"> test3</a>
             </div>
+        </h1>
+    </div>
+    <br>
+    <nav>
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="#">about</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="#">courses</a>
+            </li>
+            </li>
+        </ul>
+    </nav>
+    <br>
+    <h3><button data-target="#ma" class="btn btn-primary dropdown-toggle" data-toggle="collapse">info</button>
+        <h1 id="ma" class="collapse">bla bla bla</h1>
+    </h3>
+    <br>
+    <div class="container w-50 mt-5">
+        <form>
+            <div class="form-group">
+                <label>email</label>
+                <input placeholder="email" class="form-control" type="email">
+                <small class="form-text text-muted"> enter your email</small>
+            </div>
+
+
+
+            <br>
+            <div class="form-group">
+                <label>password</label>
+                <input placeholder="password" class="form-control" type="password">
+            </div>
+
+            <br>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox">
+                <label class="form-check-label">check me out </label>
+            </div>
+
+
+            <br>
+            <button class="btn btn-primary">submit</button>
+        </form>
+    </div>
+    <br>
+    <div class="input-group">
+        <div class="input-group-prepent">
+            <span class="input-group-text btn">email</span>
+        </div>
+        <input type="email" class="form-control">
+    </div>
+    <br>
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+        <a href="" class="navbar-brand">nouvil</a>
+        <a href="#mar" data-toggle="collapse" class="navbar-toggler">
+            <span class="navbar-toggler-icon"></span>
+        </a>
+
+        <div id="mar" class="collapse navbar-collapse">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">html</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">css</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">php</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">python</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">html</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">css</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">php</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">python</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <div class="progress">
+        <div class="progress-bar bg-primary w-50" style="width:51% ;">
+            51%
         </div>
     </div>
 
-    <script src="js/jquery-3.6.0.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="js/popper.min.js"></script>
-    <script src=" js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src=" js/bootstrap.js"></script>
 </body>
 
 </html>
