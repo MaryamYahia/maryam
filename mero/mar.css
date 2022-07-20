@@ -1,0 +1,132 @@
+.ma {
+    color: aqua;
+}
+
+#me {
+    color: blueviolet;
+}
+
+input [type="text"] {
+    background: aquamarine;
+}
+
+input[value="email"] {
+    background: red;
+}
+
+.m {
+    height: 100px;
+    width: 100px;
+    background: orange;
+
+    border: 10px black solid;
+}
+
+h1 {
+    color: orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.na {
+    color: dark;
+    line-height: 20px;
+    letter-spacing: 10px;
+}
+
+.ba {
+    text-align: right;
+    direction: rtl;
+}
+
+.x {
+    height: 200px;
+    width: 200px;
+    border: 5px black solid;
+
+    background-color: red;
+    background-image: url("img.jpg");
+
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+}
+
+
+
+
+
+.di1 {
+    display: none;
+}
+
+.di2 {
+    visibility: hidden;
+}
+
+.a {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    overflow: scroll;
+}
+
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: url(img.jpg);
+}
+
+ul li {
+    background-color: aquamarine;
+}
+
+.ah {
+    width: 60px;
+    background-color: blue;
+    position: relative;
+    top: 10px;
+}
+
+.ahm {
+    width: 60px;
+    background-color: aqua;
+
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}
+
+a:visited {
+    color: blue;
+}
+
+.check:checked {
+    opacity: 0;
+}
+
+.text:focus {
+    outline: none;
+    border: 2px green solid;
+
+}
+
+.tac::first-letter {
+    color: blue;
+}
+
+.tac::first-line {
+    color: aqua;
+}
+
+::selection {
+    background: red;
+    color: white;
+}
