@@ -1,0 +1,123 @@
+ body {
+     background-image: url(images/images.png);
+     background-repeat: no-repeat;
+     background-size: 100%;
+ }
+
+ /* a:visited {
+     color: azure;
+ }
+
+ a:hover {
+     text-decoration: underline;
+     color: white; 
+ } */
+
+ #ma {
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 50px;
+
+
+ }
+
+ h3 {
+     border-bottom: 3px red solid;
+
+ }
+
+ p {
+     font-family: 'Times New Roman', Times, serif;
+     font-size: x-large;
+ }
+
+ #mariam {
+     margin-left: 5px;
+     padding-left: 20px;
+     border-left: 2px red solid;
+     font-family: "Inter", sans-serif;
+     font-size: 25px;
+     font-weight: 400;
+     ;
+ }
+
+ .btn {
+     width: 150px;
+     height: 50px;
+     text-align: center;
+     background-color: white;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     text-decoration: none;
+     display: inline-block;
+ }
+
+ a:hover {
+     color: rgb(240, 9, 9);
+ }
+
+ .tex {
+     color: rgba(238, 243, 248, 0.704);
+
+     padding-left: 35px;
+     font-family: "Inter", sans-serif;
+     line-height: 1.7;
+     font-size: 20px;
+     font-weight: 400;
+
+ }
+
+ .ra {
+     padding-left: 35px;
+     font-family: "Inter", sans-serif;
+     line-height: 1.7;
+     font-size: 15px;
+     font-weight: 400;
+ }
+
+ #mar {
+     margin-top: 40px;
+     margin-left: 5px;
+     padding-left: 20px;
+     border-left: 2px red solid;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ #na {
+     display: flex;
+     flex-wrap: wrap;
+     padding-left: 0;
+     margin-left: 30px;
+     margin-bottom: 0;
+     list-style: none;
+ }
+
+ #hr {
+
+     font-size: 13px;
+     border: 1px solid rgba(255, 255, 255, 0.1);
+     padding: 5px 15px;
+     border-radius: 40px;
+     margin-top: 15px;
+     margin-right: 5px;
+     margin-left: 5px;
+ }
+
+ span:hover {
+     border-color: rgb(255, 255, 255);
+ }
+
+ .bad {
+     font-size: 13px;
+     border: 1px solid rgb(240, 9, 9);
+     background-color: rgb(240, 9, 9);
+     padding: 10px 15px;
+     border-radius: 50px;
+     margin-top: 15px;
+     margin-right: 5px;
+     margin-left: 5px;
+
+ }
+
+ .hb {
+     color: rgba(255, 255, 255, 0.769);
+     margin-right: 4px;
+ }
