@@ -7,6 +7,7 @@
         <title>Mariam</title>
         <link rel="stylesheet" href="cv.css">
         <link rel="stylesheet" href="css/bootstrap.css">
+    
         <style>
             .bt:link,
             .bt:visited {
@@ -39,131 +40,341 @@
             a:active {
                 text-decoration: underline;
             }
+            .navbar-toggler {
+                width: 40px;
+                height: 40px;
+                position: relative;
+                margin: 0 20px 0 0;
+                border-radius: 5px;
+                margin-left: 15px;
+                background: #f71735;
+                border: 3px red solid;
+            }
+            .navbar-toggler span{
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                width: 10px;
+                height: 2px;
+                margin: auto;
+                box-shadow: 0px -8px 0 0px currentColor, 0px 8px 0 0px currentColor;
+                background: #fff;
+                color: #fff;
+            }
+            .card {
+                margin-top: 10px;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+                width: 100%;
+                background-color: rgba(3, 3, 37, 0.865);
+                padding-top: 10px;
+                padding-right: 30px;
+                padding-left: 30px;
+                padding-bottom: 5px;
+                border: 3px solid transparent;
+                border-radius: 10px;
+            }
+
+                .card:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                }
+
+                .container {
+                padding: 2px 16px;
+                }
+           
             
         </style>
     </head>
     <body>
         
         <!-- nav -->
-        <nav class="navbar navbar-expand-lg  mt-3 mb-5">
-            <div class="container">
-                <a class="navbar-brand text-white" href="#"><h2>Mariam</h2> </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span  class="navbar-toggler-icon"></span>
-                    
-                </button>
-                <div class="collapse navbar-collapse  justify-content-end" aria-hidden="true" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a  href="#" class="ah nav-link ">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                        <a href="#" class="re nav-link">ABOUT US</a>
-                        </li>
-                        <li class="nav-item">
-                           
-                             <a href="#" class="ya nav-link">SERVICES</a>
+         
+            <nav class="navbar navbar-expand-lg  mt-3 mb-5">
+                <div class="container">
+                    <a class="navbar-brand text-white" href="#">
+                        <h2>Mariam</h2>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon "></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="collapse navbar-collapse  justify-content-end" aria-hidden="true" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a href="#" class="ah nav-link ">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="re nav-link">ABOUT US</a>
+                            </li>
+                            <li class="nav-item">
+            
+                                <a href="#" class="ya nav-link">SERVICES</a>
+            
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="al nav-link">BORTIFOLIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="mo nav-link">BLOG</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">CONTENT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        
+            <br>
+            <br>
 
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="al nav-link">BORTIFOLIO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="mo nav-link">BLOG</a>                           
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">CONTENT</a>
-                        </li>
-                    </ul>
+            <!--  -->
+            <div class="container mt-5 mb-5">
+                <div class="row  mb-5" >
+                    <div class="col-lg-6">
+                        <h5 class="text-white">Hi There,I'm</h5>
+                        <h1 class="text-white " id="ma"> Mariam Yahya</h1>
+                        <h4 class="text-white">Freelancer</h4>
+                        <p class="text-muted">The namics of how users interact with interactive elements within a user
+                        interface flow chart based on container
+                        proportion</p>
+
+                    
+                    <a class="bt" href="default.asp" target="_blank">content Me</a>
+
+                    </div>
+                    <div class="col-lg-6"></div>
                 </div>
             </div>
-        </nav>
-        <br>
-        <br>
+            <div class="container mt-5 mb-5">
+                <div class=" row mt-5  mb-5">
+                    <div class="col-lg-5">
+                        <!-- img -->
+                    </div>
+                    <div class="col-lg-7">
+                        <h4 id="mariam" class="text-white text-align-center"> About Me </h4>
+                        <p class="tex">Hello, my name is Mariam and i am front-end developer</p>
+                        <p class="ra">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                        <br>
+                        <div class="na">
+                            <h4 id="mar" class="text-white text-align-center"> Design Tools </h4>
+                            <div id="na">
+                                <span id="hr">Adobe Xd</span>
+                                <span id="hr">Illustrator</span>
+                                <span id="hr">Photoshop</span>
+                                <span id="hr">Figma</span>
+                                <span id="hr">Sketch</span>
+                            </div>
+                        </div>
+                        <div class="na">
+                            <h4 id="mar" class="text-white text-align-center"> Technologies and Skills </h4>
+                            <div id="na">
+                                <span id="hr">html</span>
+                                <span id="hr">css</span>
+                                <span id="hr">bootstrap</span>
+                                <span id="hr">scss</span>
+                                <span id="hr">less</span>
+                                <span id="hr">jqeury</span>
+                                <span id="hr">php</span>
+                                <span id="hr">react</span>
+                                <span id="hr">javascript</span>
+                                <span id="hr">Graphic Design</span>
+                                <span id="hr">Art Design</span>
+                                <span id="hr">Ui/Ux Design</span>
+                            </div>
+                        </div>
+                        <div class="na">
+                            <h4 id="mar" class="text-white text-align-center mb-3"> Work Process </h4>
+                            <div id="na">
+                                <span>
+                                    <span class="bad">#01</span>
+                                <span class="hb"> Research</span>
+                                </span>
+                                <span>
+                                    <span class="bad">#02</span>
+                            <span class="hb"> Design</span>
 
-        <!--  -->
-        <div class="container mb-5">
-            <div class="row  mb-5" >
-                <div class="col-lg-6">
-                    <h4 class="text-white">Hi There,I'm</h4>
-                    <h1 class="text-white " id="ma"> Mariam Yahya</h1>
-                    <h3 class="text-white">Freelancer</h3>
-                    <p class="text-muted">The namics of how users interact with interactive elements within a user
-                    interface flow chart based on container
-                    proportion</p>
+                                </span>
+                                <span>
+                                    <span class="bad">#03</span>
+                                    <span class="hb">Codeing</span>
 
-                  
-                <a class="bt" href="default.asp" target="_blank">content Me</a>
+                                </span>
+                                <span>
+                                    <span class="bad mt-3">#04</span>
+                                    <span class="hb">Launch</span>
+                                </span>
+                            
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
-                <div class="col-lg-6"></div>
+            </div>
+            <br>
+        <div class="container mt-5 mb-5 justify-content-center">
+            <h1 class="text-white text-center mb-5">MY SERVICES</h1>
+            <br>
+            <div class="row container mt-5">
+              
+                <div class="col-sm-6 col-md-5 col-lg-4 my-3 mb-5">
+                    <div class="card">
+                         <div class="icon hexagon">
+                             <i class="gg-laptop"></i>
+                        
+                        </div> 
+                        
+                        <div class="container text-white">
+                            <h4 class="text-center">Unique design</h4>
+                            <br>
+                            <p class="text-muted text-center">I design and develop services for customers of all sizes,
+                                 specializing in creating stylish, 
+                                 modern websites</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-5 col-lg-4 my-3 mb-5">
+                    <div class="card">
+                        <div class="icon hexagon">
+                            <i class="bi bi-layout-text-window"></i>
+                        </div>
+                        <div class="container text-white">
+                            <h4 class="text-center">Different Layout</h4>
+                            <br>
+                            <p class="text-muted text-center">I design and develop services for customers of all sizes,
+                                 specializing in creating stylish, 
+                                 modern websites.  </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-5 col-lg-4 my-3 mb-5">
+                    <div class="card">
+                        <div class="icon hexagon">
+                            <i class="bi bi-layers"></i>
+                        </div>
+                        <div class="container text-white">
+                            <h4 class="text-center">Make it Simple</h4>
+                            <br>
+                            <p class="text-muted text-center">I design and develop services for customers of all sizes,
+                                specializing in creating stylish,
+                                modern websites</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-5 col-lg-4 my-3 mt-5">
+                    <div class="card">
+                        <div class="icon hexagon">
+                            <i class="bi bi-phone"></i>
+                        </div>
+                        <div class="container text-white">
+                            <h4 class="text-center">Responsiveness</h4>
+                            <br>
+                            <p class="text-muted text-center">I design and develop services for customers of all sizes,
+                                specializing in creating stylish,
+                                modern websites</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-5 col-lg-4 my-3 mt-5">
+                    <div class="card">
+                        <div class="icon hexagon">
+                            <i class="bi bi-bug"></i>
+                        </div>
+                        <div class="container text-white">
+                            <h4 class="text-center">Testing for Perfection</h4>
+                            <br>
+                            <p class="text-muted text-center">I design and develop services for customers of all sizes,
+                                specializing in creating stylish,
+                                modern websites</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-5 col-lg-4 my-3 mt-5">
+                    <div class="card">
+                        <div class="icon hexagon">
+                            <i class="bi bi-command"></i>
+                        </div>
+                        <div class="container text-white">
+                            <h4 class="text-center">Advanced Options</h4>
+                            <br>
+                            <p class="text-muted text-center">I design and develop services for customers of all sizes,
+                                specializing in creating stylish,
+                                modern websites</p>
+                        </div>
+                    </div>
+                </div>
+            
+                
+                
             </div>
         </div>
-        <div class="container mt-5">
-            <div class=" row mt-5 ">
-                <div class="col-lg-6">
-                    <!-- img -->
+        <br>
+        <div class="container mt-5 mb-5 justify-content-center">
+            <h1 class="text-white text-center mb-5">MY EXPERIENCE</h1>
+            <br>
+            <div class="row mariam mb-5"> 
+                <div class="col-lg-4 sm-12">
+                    <small class="text-white m mb-3" >Sep, 2016 – May, 2017</small>
                 </div>
-                <div class="col-lg-6">
-                    <h4 id="mariam" class="text-white text-align-center"> About Me </h4>
-                    <p class="tex">Hello, my name is Mariam and i am front-end developer</p>
-                    <p class="ra">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-                    <br>
-                    <div class="na">
-                        <h4 id="mar" class="text-white text-align-center"> Design Tools </h4>
-                        <div id="na">
-                            <span id="hr">Adobe Xd</span>
-                            <span id="hr">Illustrator</span>
-                            <span id="hr">Photoshop</span>
-                            <span id="hr">Figma</span>
-                            <span id="hr">Sketch</span>
-                        </div>
-                    </div>
-                    <div class="na">
-                        <h4 id="mar" class="text-white text-align-center"> Technologies and Skills </h4>
-                        <div id="na">
-                            <span id="hr">html</span>
-                            <span id="hr">css</span>
-                            <span id="hr">bootstrap</span>
-                            <span id="hr">scss</span>
-                            <span id="hr">less</span>
-                            <span id="hr">jqeury</span>
-                            <span id="hr">php</span>
-                            <span id="hr">react</span>
-                            <span id="hr">javascript</span>
-                            <span id="hr">Graphic Design</span>
-                            <span id="hr">Art Design</span>
-                            <span id="hr">Ui/Ux Design</span>
-                        </div>
-                    </div>
-                    <div class="na">
-                        <h4 id="mar" class="text-white text-align-center mb-3"> Work Process </h4>
-                        <div id="na">
-                            <span>
-                                <span class="bad">#01</span>
-                            <span class="hb"> Research</span>
-                            </span>
-                            <span>
-                                <span class="bad">#02</span>
-                        <span class="hb"> Design</span>
-
-                            </span>
-                            <span>
-                                <span class="bad">#03</span>
-                                <span class="hb">Codeing</span>
-
-                            </span>
-                            <span>
-                                <span class="bad">#04</span>
-                                <span class="hb">Launch</span>
-                            </span>
-                           
-                        </div>
-                    </div>
+                <div class="col-lg-8 sm-12">
+                    <h3 class="text-white mt-3">Junior Designer</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                    
+                    - Las Vegas, USA</p>
                 </div>
-
+            </div>
+            <div class="row mariam mb-5">
+                <div class="col-lg-4 sm-12">
+                    <small class="text-white m mb-3">Sep, 2016 – May, 2017</small>
+                </div>
+                <div class="col-lg-8 sm-12">
+                    <h3 class="text-white mt-3">Systems Analyst / Web Developer</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua.
+            
+                        - Las Vegas, USA</p>
+                </div>
+            </div>
+            <div class="row mariam mb-5">
+                <div class="col-lg-4 sm-12">
+                    <small class="text-white m mb-3">Sep, 2016 – May, 2017</small>
+                </div>
+                <div class="col-lg-8 sm-12">
+                    <h3 class="text-white mt-3">Full Stack Developer</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua.
+            
+                        - Las Vegas, USA</p>
+                </div>
+            </div>
+            <div class="row mariam mb-5">
+                <div class="col-lg-4 sm-12">
+                    <small class="text-white m mb-3">Sep, 2016 – May, 2017</small>
+                </div>
+                <div class="col-lg-8 sm-12">
+                    <h3 class="text-white mt-3">Full Stack Develope</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua.
+            
+                        - Las Vegas, USA</p>
+                </div>
             </div>
         </div>
 
