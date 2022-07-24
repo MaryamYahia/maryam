@@ -1,12 +1,34 @@
- body {
-     background-image: url(images/images.png);
-     background-repeat: no-repeat;
-     background-size: 10000px;
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: "poppins", sans-serif;
+     box-sizing: border-box;
+     scroll-behavior: smooth;
  }
 
+ body {
+     background-image: url(images/istockphoto-938863046-612x612.jpg);
+     background-repeat: no-repeat;
+     background-size: 20000px;
 
+ }
 
- .navbar {
+ .bg {
+     background-color: rgb(2, 2, 21);
+     padding-top: 0px;
+
+ }
+
+ .header {
+     width: 100%;
+     position: fixed;
+     z-index: 999;
+     background: rgb(2, 2, 25);
+     background-size: 10px;
+
+ }
+
+ /* .navbar {
      position: relative;
      display: flex;
      flex-wrap: wrap;
@@ -14,6 +36,44 @@
      justify-content: space-between;
      padding-top: 0.5rem;
      padding-bottom: 0.5rem;
+ } */
+ nav {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .navbar-nav {
+     padding: 1px 0;
+     margin-right: 0;
+ }
+
+ .navbar-nav li {
+     display: inline-block;
+     margin: 0;
+ }
+
+ .navbar-nav li a {
+
+     text-decoration: none;
+     color: rgb(188, 183, 183);
+     padding: 5px 0;
+     position: relative;
+ }
+
+ .navbar-nav li a::after {
+     content: "";
+     background: #e3d7d4;
+     width: 0;
+     height: 2px;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     transition: width 0.5s;
+ }
+
+ .navbar-nav li a:hover::after {
+     width: 100%;
  }
 
 
@@ -29,24 +89,26 @@
      border: 3px red solid;
  }
 
- /* a:visited {
+ a:visited {
      color: azure;
  }
 
  a:hover {
      text-decoration: underline;
-     color: white; 
- } */
+     color: white;
+ }
 
- #ma {
+ */ #ma {
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      font-size: 40px;
+     margin-top: 20px;
+     margin-bottom: 20px;
 
 
  }
 
- .text.white {
-     border-bottom: 3px red solid;
+ .mr3 {
+     border-top: 3px red solid;
      padding-bottom: 6px;
 
  }
@@ -249,4 +311,38 @@
 
  p {
      color: rgba(147, 152, 156, 0.687);
+ }
+
+
+
+
+
+ .text-muted {
+     font-family: "Inter", sans-serif;
+     line-height: 1.7;
+     font-size: 20px;
+     font-weight: 400;
+ }
+
+ .carousel-item {
+     width: 300px;
+     height: 300px;
+ }
+
+ .m3 {
+
+     border-radius: 50%;
+
+ }
+
+ .mai {
+
+
+     color: red;
+ }
+
+ .mai a {
+     color: #fff;
+     font-size: 20px;
+     margin-right: 10px;
  }
