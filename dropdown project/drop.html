@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" . />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="drop.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <title>Koinly</title>
+        <style>
+            .pr-1 {
+                font-size: 25px;
+                font-weight: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+}
+        </style>
+    </head>
+    <body class="bg">
+        <div class="container">
+            <div class="d-flex row mb-5 ">
+                <div class="left-col " >
+                    <span class="pr-1">
+                        Transactions
+                    </span>
+                    <span class="badge badge-pill   align-middle mb-1">1821</span>
+                </div>
+                <div class="right-col ">
+                    <!-- dropdown -->
+                    <div class="dropdown">
+                        <button class="btn mar
+                         dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                                 Add Transactions
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">
+                                dopsit
+                                <p class="wrap-text small text-muted pt-1">
+                                    When you receive coins from somewhere ex. 
+                                   <br> purchase, airdrop, mining, income
+                                    etc</p>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                With drawal
+                                <p class="wrap-text small text-muted pt-1">When you send coins to someone ex. 
+                                    <br>payment, gift, donation, trading cost
+                                    etc</p>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                               Trade
+                               <p class="wrap-text small text-muted pt-1">When you exchange one 
+                                <br>coin for another ex. ETH → BTC</p>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- form -->
+            <form>
+                <div class="row">
+                    <div class="col-lg-6 mb-3">
+                    
+                        <select   class="form-control" id="exampleFormControlSelect2" placeholder="All Willets">
+                            <optgroup label="All Willets">    
+                                <option>All Willets</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </optgroup>
+                        </select> 
+                        
+                    </div>
+                    <div class="col-lg-6">
+                    <select class="form-control" id="exampleFormControlSelect2" placeholder="All Willets">
+                        <optgroup label="All Willets">
+                            <option>All currenices</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </optgroup>
+                    </select>
+                    </div>
+                </div>
+            </form>
+            <div class="row">
+                <div class="col-lg-1 col-sm-12 mb-3 mt-1" >
+                    <div class="dropdown open dropdown-md d-inline-blok">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                    Type
+                                </button>
+                        <div class="dropdown-menu" aria-labelledby="triggerId">
+                            <button class="dropdown-item" href="#">Deposits</button>
+                            <button class="dropdown-item disabled" href="#">Withdrawals</button>
+                            <button class="dropdown-item disabled" href="#">All trades</button>
+                            <button class="dropdown-item disabled" href="#">Transfers</button>
+                            <button class="dropdown-item disabled" href="#">All Deposits</button>
+                            <button class="dropdown-item disabled" href="#">All Withdrawals</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-sm-12 mb-3 mt-1">
+                    <div class="dropdown open dropdown-md d-inline-blok">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            label
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="triggerId">
+                            <button class="dropdown-item" href="#">Airdrop</button>
+                            <button class="dropdown-item disabled" href="#">fork</button>
+                            <button class="dropdown-item disabled" href="#">mining</button>
+                            <button class="dropdown-item disabled" href="#">reward</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-sm-12 mb-3 mr-2 mt-1">
+                    <div class="dropdown open dropdown-md d-inline-blok">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            manual
+                        </button>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-5 col-sm-12 mb-3  mt-1">
+                    <div class="dropdown open dropdown-md d-inline-blok">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            warnings
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="triggerId">
+                            <button class="dropdown-item" href="#">Missing costs</button>
+                            <button class="dropdown-item disabled" href="#">Missing rates</button>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-lg-2 col-sm-12 mb-3 mt-1">
+                    <div class="dropdown open dropdown-md d-inline-blok">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Sort by most recent
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="triggerId">
+                            <button class="dropdown-item" href="#">Most Recent</button>
+                            <button class="dropdown-item disabled" href="#">Oldest first</button>
+                            <button class="dropdown-item disabled" href="#">highest gains</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-sm-12  mb-3 mt-1">
+                    <div class="dropdown open dropdown-md d-inline-blok">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Per page: 10
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="triggerId">
+                            <button class="dropdown-item" href="#">10</button>
+                            <button class="dropdown-item disabled" href="#">25</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <script src="js/popper.min.js"></script>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src=" js/bootstrap.js"></script>
+    </body>
+</html>

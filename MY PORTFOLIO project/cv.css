@@ -198,7 +198,7 @@
      font-size: 13px;
      border: 1px solid rgb(240, 9, 9);
      background-color: rgb(240, 9, 9);
-     padding: 10px 15px;
+     padding: 15px 15px;
      border-radius: 50px;
      margin-top: 15px;
      margin-right: 5px;
@@ -207,6 +207,7 @@
  }
 
  .hb {
+     margin-top: 20px;
      color: rgba(255, 255, 255, 0.769);
      margin-right: 4px;
  }
