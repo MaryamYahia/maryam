@@ -6,169 +6,521 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="drop.css">
         <link rel="stylesheet" href="css/bootstrap.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
         <title>Koinly</title>
         <style>
             .pr-1 {
                 font-size: 25px;
                 font-weight: 20px;
                 font-family: Georgia, 'Times New Roman', Times, serif;
-}
+            }
+         
         </style>
     </head>
-    <body class="bg">
-        <div class="container">
-            <div class="d-flex row mb-5 ">
-                <div class="left-col " >
-                    <span class="pr-1">
-                        Transactions
-                    </span>
-                    <span class="badge badge-pill   align-middle mb-1">1821</span>
-                </div>
-                <div class="right-col ">
-                    <!-- dropdown -->
-                    <div class="dropdown">
-                        <button class="btn mar
-                         dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                                 Add Transactions
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">
-                                dopsit
-                                <p class="wrap-text small text-muted pt-1">
-                                    When you receive coins from somewhere ex. 
-                                   <br> purchase, airdrop, mining, income
-                                    etc</p>
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                With drawal
-                                <p class="wrap-text small text-muted pt-1">When you send coins to someone ex. 
-                                    <br>payment, gift, donation, trading cost
-                                    etc</p>
-                            </a>
-                            <a class="dropdown-item" href="#">
-                               Trade
-                               <p class="wrap-text small text-muted pt-1">When you exchange one 
-                                <br>coin for another ex. ETH → BTC</p>
-                            </a>
+    <body >
+        <div class="header "> 
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <div class="container">
+                    <a class="navbar-brand mr-4" href="#">
+                        
+                        <div class="d-flex align-items-center"><span
+                                style="font-size: 20px; font-weight: 600; line-height: 22px; font-family: Quicksand; font-style: normal; margin-right: 1rem;">Koinly</span>
                         </div>
-                    </div>
+                            
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item  pr-3">
+                                <a class="nav-link h-100 d-flex align-items-center" href="#">Dashboard</a>
+                            </li>
+                            <li class="nav-item pr-3">
+                                <a class="nav-link h-100 d-flex align-items-center"" href="#">Wallets</a>
+                            </li>
+                            
+                            <li class="nav-item pr-3 ">
+                                <a class="nav-link h-100 d-flex align-items-center"" href="#">Tax Reports</a>
+                            </li>
+                            <li class="nav-item pr-3">
+                                <a class="nav-link h-100 d-flex align-items-center"" href="#">Markets</a>
+                            </li>
+                            <li class="nav-item pr-3" >
+                                <a class="nav-link h-100 d-flex align-items-center" style="padding-right:  23rem;" href="#">setting</a>
+                            </li>
+                            
+                             <li class="nav-item ">
+                                    <a class="nav-link pl-5" href="#">
+                                        <span class="badge badge-secondary">Free plan</span>
+                                    </a>
+                            </li> 
 
+                             <li class="nav-item dropdown ">
+                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        <img src="images/download.png" alt="">
+                                    </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="#">Plans</a>
+                                            <a class="dropdown-item" href="#">Refer friends</a>
+                                            <a class="dropdown-item" href="#">Account</a>
+                                            <a class="dropdown-item" href="#">Log out</a>
+                                        </div> 
+                                    
+                            </li> 
+                            
+                        </ul>   
+                        
+                    </div>
+                   
                 </div>
-            </div>
-            <!-- form -->
-            <form>
-                <div class="row">
-                    <div class="col-lg-6 mb-3">
-                    
-                        <select   class="form-control" id="exampleFormControlSelect2" placeholder="All Willets">
-                            <optgroup label="All Willets">    
-                                <option>All Willets</option>
+            </nav>
+        
+        
+        
+        
+        
+        
+        </div>
+        <div class="bg">
+            <div class="container">
+                <div class="d-flex row mb-5 ">
+                    <div class="left-col " >
+                        <span class="pr-1">
+                            Transactions
+                        </span>
+                        <span class="badge badge-pill   align-middle mb-1">1821</span>
+                    </div>
+                    <div class="right-col ">
+                        <!-- dropdown -->
+                        <div class="dropdown">
+                            <button class="btn mar
+                            dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                    Add Transactions
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">
+                                    dopsit
+                                    <p class="wrap-text small text-muted pt-1">
+                                        When you receive coins from somewhere ex. 
+                                    <br> purchase, airdrop, mining, income
+                                        etc</p>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    With drawal
+                                    <p class="wrap-text small text-muted pt-1">When you send coins to someone ex. 
+                                        <br>payment, gift, donation, trading cost
+                                        etc</p>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                Trade
+                                <p class="wrap-text small text-muted pt-1">When you exchange one 
+                                    <br>coin for another ex. ETH → BTC</p>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- form -->
+                <form>
+                    <div class="row">
+                        <div class="col-lg-6 mb-3 ">
+                        
+                            <select   class="form-control mo  " id="exampleFormControlSelect2" placeholder="All Willets">
+                                <optgroup label="All Willets">    
+                                    <option>All Willets</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </optgroup>
+                            </select> 
+                            
+                        </div>
+                        <div class="col-lg-6 ">
+                        <select class="form-control mo" id="exampleFormControlSelect2" placeholder="All Willets">
+                            <optgroup label="All Willets">
+                                <option>All currenices</option>
                                 <option>2</option>
                                 <option>3</option>
                                 <option>4</option>
                                 <option>5</option>
                             </optgroup>
-                        </select> 
-                        
-                    </div>
-                    <div class="col-lg-6">
-                    <select class="form-control" id="exampleFormControlSelect2" placeholder="All Willets">
-                        <optgroup label="All Willets">
-                            <option>All currenices</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </optgroup>
-                    </select>
-                    </div>
-                </div>
-            </form>
-            <div class="row">
-                <div class="col-lg-1 col-sm-12 mb-3 mt-1" >
-                    <div class="dropdown open dropdown-md d-inline-blok">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
-                                    Type
-                                </button>
-                        <div class="dropdown-menu" aria-labelledby="triggerId">
-                            <button class="dropdown-item" href="#">Deposits</button>
-                            <button class="dropdown-item disabled" href="#">Withdrawals</button>
-                            <button class="dropdown-item disabled" href="#">All trades</button>
-                            <button class="dropdown-item disabled" href="#">Transfers</button>
-                            <button class="dropdown-item disabled" href="#">All Deposits</button>
-                            <button class="dropdown-item disabled" href="#">All Withdrawals</button>
+                        </select>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-1 col-sm-12 mb-3 mt-1">
-                    <div class="dropdown open dropdown-md d-inline-blok">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            label
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="triggerId">
-                            <button class="dropdown-item" href="#">Airdrop</button>
-                            <button class="dropdown-item disabled" href="#">fork</button>
-                            <button class="dropdown-item disabled" href="#">mining</button>
-                            <button class="dropdown-item disabled" href="#">reward</button>
+                </form>
+                <div class="row">
+                    <div class="col-lg-1 col-sm-12 mb-3 mt-1" >
+                        <div class="dropdown  open dropdown-md d-inline-blok">
+                            <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                        Type
+                                    </button>
+                            <div class="dropdown-menu" aria-labelledby="triggerId">
+                                <button class="dropdown-item" href="#">Deposits</button>
+                                <button class="dropdown-item disabled" href="#">Withdrawals</button>
+                                <button class="dropdown-item disabled" href="#">All trades</button>
+                                <button class="dropdown-item disabled" href="#">Transfers</button>
+                                <button class="dropdown-item disabled" href="#">All Deposits</button>
+                                <button class="dropdown-item disabled" href="#">All Withdrawals</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-1 col-sm-12 mb-3 mr-2 mt-1">
-                    <div class="dropdown open dropdown-md d-inline-blok">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            manual
-                        </button>
-                        
-                    </div>
-                </div>
-                <div class="col-lg-5 col-sm-12 mb-3  mt-1">
-                    <div class="dropdown open dropdown-md d-inline-blok">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            warnings
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="triggerId">
-                            <button class="dropdown-item" href="#">Missing costs</button>
-                            <button class="dropdown-item disabled" href="#">Missing rates</button>
+                    <div class="col-lg-1 col-sm-12 mb-3 mt-1">
+                        <div class="dropdown open dropdown-md d-inline-blok">
+                            <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                label
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="triggerId">
+                                <button class="dropdown-item" href="#">Airdrop</button>
+                                <button class="dropdown-item disabled" href="#">fork</button>
+                                <button class="dropdown-item disabled" href="#">mining</button>
+                                <button class="dropdown-item disabled" href="#">reward</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-               
-                <div class="col-lg-2 col-sm-12 mb-3 mt-1">
-                    <div class="dropdown open dropdown-md d-inline-blok">
-                        <button class="btn btn-primary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            Sort by most recent
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="triggerId">
-                            <button class="dropdown-item" href="#">Most Recent</button>
-                            <button class="dropdown-item disabled" href="#">Oldest first</button>
-                            <button class="dropdown-item disabled" href="#">highest gains</button>
+                    <div class="col-lg-1 col-sm-12 mb-3 mr-2 mt-1">
+                        <div class="dropdown open dropdown-md d-inline-blok">
+                            <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                manual
+                            </button>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-sm-12 mb-3  mt-1">
+                        <div class="dropdown open dropdown-md d-inline-blok">
+                            <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                warnings
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="triggerId">
+                                <button class="dropdown-item" href="#">Missing costs</button>
+                                <button class="dropdown-item disabled" href="#">Missing rates</button>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-2 col-sm-12 mb-3 mt-1">
+                        <div class="dropdown open dropdown-md d-inline-blok">
+                            <button class="btn mae dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Sort by most recent
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="triggerId">
+                                <button class="dropdown-item" href="#">Most Recent</button>
+                                <button class="dropdown-item disabled" href="#">Oldest first</button>
+                                <button class="dropdown-item disabled" href="#">highest gains</button>
 
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-1 col-sm-12  mb-3 mt-1">
-                    <div class="dropdown open dropdown-md d-inline-blok">
-                        <button class="btn btn-primary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            Per page: 10
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="triggerId">
-                            <button class="dropdown-item" href="#">10</button>
-                            <button class="dropdown-item disabled" href="#">25</button>
+                    <div class="col-lg-1 col-sm-12  mb-3 mt-1">
+                        <div class="dropdown open dropdown-md d-inline-blok">
+                            <button class="btn mae dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Per page: 10
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="triggerId">
+                                <button class="dropdown-item" href="#">10</button>
+                                <button class="dropdown-item disabled" href="#">25</button>
+                            </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
+            </div>
+            <div class="container mt-5 mb-5 mk" >
+                <h3>Jul 23, 2022</h3>
+                <div class="my mb-5">
+                    <div class="row mt-4 mb-4">
+                        <div class="col-lg-4 col-sm-1">  
+                            <img src="images/Capture.PNG" alt="">
+                        <span class="mn ">incom</span>
+                        <span><i class="material-icons ">info_outline</i></span>
+                       <br> <small class="text-muted mt-2 ml-5">3:49 AM</small>
+                        </div>
+                        <div class="col-lg-1 col-sm-2 ml-2">
+                            <img src="images/jgjhfjhg.PNG" alt="">
+                        </div>
+                        <div class="col-lg-1 col-sm-1">
+                            <img src="images/Cape.PNG" alt="">
+                        </div>
+                        <div class="col-lg-1 col-sm-1"></div>
+                            <img src="images/original.png" alt="" style="width: 40px ; height: 40px;">
+                            <span class="text-muted">BINANCE
+                           <br>
+                            + 0.50866288 BUSD
+                            <br>
+                            <small>≈ $0.51</small>
+                            </span>
+                    </div>
+                    <hr>
+                    <div class="row mt-4 mb-2">
+                        <div class="col-lg-4 col-sm-2">
+                            <img src="images/Capture.PNG" alt="">
+                            <span class="mn ">incom</span>
+                            <span><i class="material-icons ">info_outline</i></span>
+                            <br> <small class="text-muted mt-2 ml-5">3:49 AM</small>
+                        </div>
+                        <div class="col-lg-1 col-sm-2 ml-2">
+                            <img src="images/jgjhfjhg.PNG" alt="">
+                        </div>
+                        <div class="col-lg-1 col-sm-2">
+                            <img src="images/Cape.PNG" alt="">
+                        </div>
+                        <div class="col-lg-1 col-sm-2 pl-4"></div>
+                        <img src="images/original (1).png" alt="" style="width: 40px ; height: 40px;">
+                        <span class="text-muted ml-2">BINANCE
+                            <br>
+                            + 0.64635752 USDT
+                            <br>
+                            <small>≈ $0.65</small>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5 mb-5 mk">
+                <h3>Jul 22, 2022</h3>
+                <div class="my mb-5">
+                    <div class="row mt-4 mb-4">
+                        <div class="col-lg-4 col-sm-2">
+                            <img src="images/Capture.PNG" alt="">
+                            <span class="mn ">incom</span>
+                            <span><i class="material-icons ">info_outline</i></span>
+                            <br> <small class="text-muted mt-2 ml-5">3:49 AM</small>
+                        </div>
+                        <div class="col-lg-1 col-sm-2 ml-2">
+                            <img src="images/jgjhfjhg.PNG" alt="">
+                        </div>
+                        <div class="col-lg-1 col-sm-2">
+                            <img src="images/Cape.PNG" alt="">
+                        </div>
+                        <div class="col-lg-1 col-sm-2 "></div>
+                        <img src="images/original.png" alt="" style="width: 40px ; height: 40px;">
+                        <span class="text-muted">BINANCE
+                            <br>
+                            + 0.50866288 BUSD
+                            <br>
+                            <small>≈ $0.51</small>
+                        </span>
+                    </div>
+                    <hr>
+                    <div class="row mt-4 mb-2">
+                        <div class="col-lg-4 col-sm-2">
+                            <img src="images/Capture.PNG" alt="">
+                            <span class="mn ">incom</span>
+                            <span><i class="material-icons ">info_outline</i></span>
+                            <br> <small class="text-muted mt-2 ml-5">3:49 AM</small>
+                        </div>
+                        <div class="col-lg-1 col-sm-2 ml-2">
+                            <img src="images/jgjhfjhg.PNG" alt="">
+                        </div>
+                        <div class="col-lg-1 col-sm-2">
+                            <img src="images/Cape.PNG" alt="">
+                        </div>
+                        <div class="col-lg-1 col-sm-2 pl-4"></div>
+                        <img src="images/original (1).png" alt="" style="width: 40px ; height: 40px;">
+                        <span class="text-muted ml-2">BINANCE
+                            <br>
+                            + 0.64635752 USDT
+                            <br>
+                            <small>≈ $0.65</small>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5 mb-5 mk">
+                <h3>Jul 21, 2022</h3>
+                <div class="my mb-5">
+                    <div class="row mt-4 mb-4">
+                        <div class="col-lg-4 col-sm-2">
+                            <img src="images/Capture.PNG" alt="">
+                            <span class="mn ">incom</span>
+                            <span><i class="material-icons ">info_outline</i></span>
+                            <br> <small class="text-muted mt-2 ml-5">3:49 AM</small>
+                        </div>
+                        <div class="col-lg-1 col-sm-2 ml-2">
+                            <img src="images/jgjhfjhg.PNG" alt="">
+                        </div>
+                        <div class="col-lg-1 col-sm-2">
+                            <img src="images/Cape.PNG" alt="">
+                        </div>
+                        <div class="col-lg-1 col-sm-2"></div>
+                        <img src="images/original.png" alt="" style="width: 40px ; height: 40px;">
+                        <span class="text-muted">BINANCE
+                            <br>
+                            + 0.50866288 BUSD
+                            <br>
+                            <small>≈ $0.51</small>
+                        </span>
+                    </div>
+                    <hr>
+                    <div class="row mt-4 mb-2">
+                        <div class="col-lg-4 col-sm-2">
+                            <img src="images/Capture.PNG" alt="">
+                            <span class="mn ">incom</span>
+                            <span><i class="material-icons ">info_outline</i></span>
+                            <br> <small class="text-muted mt-2 ml-5">3:49 AM</small>
+                        </div>
+                        <div class="col-lg-1 col-sm-2 ml-2">
+                            <img src="images/jgjhfjhg.PNG" alt="">
+                        </div>
+                        <div class="col-lg-1 col-sm-2">
+                            <img src="images/Cape.PNG" alt="">
+                        </div>
+                        <div class="col-lg-1 col-sm-2 pl-4"></div>
+                        <img src="images/original (1).png" alt="" style="width: 40px ; height: 40px;">
+                        <span class="text-muted ml-2">BINANCE
+                            <br>
+                            + 0.64635752 USDT
+                            <br>
+                            <small>≈ $0.65</small>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5 mb-5 mk">
+                <h3>Jul 20, 2022</h3>
+                <div class="my mb-5">
+                    <div class="row mt-4 mb-4">
+                        <div class="col-lg-4 col-sm-2">
+                            <img src="images/Capture.PNG" alt="">
+                            <span class="mn ">incom</span>
+                            <span><i class="material-icons ">info_outline</i></span>
+                            <br> <small class="text-muted mt-2 ml-5">3:49 AM</small>
+                        </div>
+                        <div class="col-lg-1 col-sm-2 ml-2">
+                            <img src="images/jgjhfjhg.PNG" alt="">
+                        </div>
+                        <div class="col-lg-1 col-sm-2">
+                            <img src="images/Cape.PNG" alt="">
+                        </div>
+                        <div class="col-lg-1 col-sm-2"></div>
+                        <img src="images/original.png" alt="" style="width: 40px ; height: 40px;">
+                        <span class="text-muted">BINANCE
+                            <br>
+                            + 0.50866288 BUSD
+                            <br>
+                            <small>≈ $0.51</small>
+                        </span>
+                    </div>
+                    <hr>
+                    <div class="row mt-4 mb-2">
+                        <div class="col-lg-4 col-sm-2">
+                            <img src="images/Capture.PNG" alt="">
+                            <span class="mn ">incom</span>
+                            <span><i class="material-icons ">info_outline</i></span>
+                            <br> <small class="text-muted mt-2 ml-5">3:49 AM</small>
+                        </div>
+                        <div class="col-lg-1 col-sm-2 ml-2">
+                            <img src="images/jgjhfjhg.PNG" alt="">
+                        </div>
+                        <div class="col-lg-1 col-sm-2">
+                            <img src="images/Cape.PNG" alt="">
+                        </div>
+                        <div class="col-lg-1 col-sm-2 pl-4"></div>
+                        <img src="images/original (1).png" alt="" style="width: 40px ; height: 40px;">
+                        <span class="text-muted ml-2">BINANCE
+                            <br>
+                            + 0.64635752 USDT
+                            <br>
+                            <small>≈ $0.65</small>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5  pb-5 mk">
+                <h3>Jul 19, 2022</h3>
+                <div class="my mb-5">
+                    <div class="row mt-4 mb-4">
+                        <div class="col-lg-4 col-sm-2">
+                            <img src="images/Capture.PNG" alt="">
+                            <span class="mn ">incom</span>
+                            <span><i class="material-icons ">info_outline</i></span>
+                            <br> <small class="text-muted mt-2 ml-5">3:49 AM</small>
+                        </div>
+                        <div class="col-lg-1 col-sm-2 ml-2">
+                            <img src="images/jgjhfjhg.PNG" alt="">
+                        </div>
+                        <div class="col-lg-1 col-sm-2">
+                            <img src="images/Cape.PNG" alt="">
+                        </div>
+                        <div class="col-lg-1 col-sm-2"></div>
+                        <img src="images/original.png" alt="" style="width: 40px ; height: 40px;">
+                        <span class="text-muted">BINANCE
+                            <br>
+                            + 0.50866288 BUSD
+                            <br>
+                            <small>≈ $0.51</small>
+                        </span>
+                    </div>
+                    <hr>
+                    <div class="row mt-4 mb-2">
+                        <div class="col-lg-4 col-sm-2">
+                            <img src="images/Capture.PNG" alt="">
+                            <span class="mn ">incom</span>
+                            <span><i class="material-icons ">info_outline</i></span>
+                            <br> <small class="text-muted mt-2 ml-5">3:49 AM</small>
+                        </div>
+                        <div class="col-lg-1 col-sm-2 ml-2">
+                            <img src="images/jgjhfjhg.PNG" alt="">
+                        </div>
+                        <div class="col-lg-1 col-sm-2">
+                            <img src="images/Cape.PNG" alt="">
+                        </div>
+                        <div class="col-lg-1 col-sm-2 pl-4"></div>
+                        <img src="images/original (1).png" alt="" style="width: 40px ; height: 40px;">
+                        <span class="text-muted ml-2">BINANCE
+                            <br>
+                            + 0.64635752 USDT
+                            <br>
+                            <small>≈ $0.65</small>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="container mb-5">
+                <small class="text-muted">All date/times are in UTC</small>
+            </div>
+            <div class="container pb-5">
+                <div class="btn-group align-items-center pl-5 mr-5" style="margin-left:300px ;">
+                    <button type="button" class="btn btn-outline-secondary">1</button>
+                    <button type="button" class="btn btn-outline-secondary">2</button>
+                    <button type="button" class="btn btn-outline-secondary">3</button>
+                    <button type="button" class="btn btn-outline-secondary">4</button>
+                    <button type="button" class="btn btn-outline-secondary">5</button>
+                    <button type="button" class="btn btn-outline-secondary">...</button>
+                    <button type="button" class="btn btn-outline-secondary">1</button>
+                   
+                </div>
+            </div>
+            <!-- footer -->
+            <div class="footer">
+                <div class="container">
+                    <div class="row pb-3">
+                        <div class="col d-sm-flex justify-content-between align-items-center text-center">
+                            <div class="d-sm-flex align-items-center">
+                                <h5 class="brand d-sm-inline-block mb-2 mb-sm-0 mr-sm-4 pr-sm-2 text-uppercase"
+                                    style="opacity: 0.5;">Koinly</h5>
+                                    <span class="mx-2 ml-sm-4 text-muted"><a  rel="" href="#">Discuss</a></span>
+                                        <span class="mx-2 ml-sm-4 text-muted"><a  rel="" href="#">Updates</a></span>
+                                        <span class="mx-2 ml-sm-4 text-muted"><a rel="" href="#">Contact</a></span>
+                                        <span class="mx-2 ml-sm-4 text-muted"><a  rel="" href="#">Help</a></span>
+                            </div><span class="copyright d-block d-sm-inline-block mt-3 mt-sm-0">© 2022 Koinly</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-
 
 
 

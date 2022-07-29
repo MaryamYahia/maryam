@@ -6,8 +6,30 @@
     scroll-behavior: smooth;
 }
 
+.nav {
+    background-color: rgb(245, 250, 255);
+}
+
+.nav-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.nav-item {
+    padding-top: 1rem;
+    font-size: 14px;
+    line-height: 2;
+    padding-right: 1rem;
+}
+
 .bg {
     background: rgb(230, 226, 226);
+    background-size: 100%;
 }
 
 .d-flex {
@@ -15,7 +37,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    margin-top: 14%;
+    padding-top: 7%;
     margin-bottom: 0;
 }
 
@@ -63,4 +85,37 @@
 
 .mar:hover {
     background-color: rgb(33, 33, 225);
+}
+
+.mae {
+    background-color: rgb(117, 117, 255);
+    color: rgb(27, 27, 235);
+}
+
+.mae:hover {
+    background: rgb(207, 206, 206);
+    color: rgb(34, 33, 33);
+}
+
+.mo {
+    background-color: rgb(230, 226, 226);
+}
+
+.mo:hover {
+    background-color: white;
+}
+
+.my {
+    border: 2px rgb(199, 198, 198) solid;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.my:hover {
+    background-color: rgb(237, 235, 235);
+}
+
+.mn {
+    font-size: x-large;
+    color: rgba(0, 0, 0, 0.827);
 }
