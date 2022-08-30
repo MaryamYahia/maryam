@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #000;
+    background: #ffffff;
+    color: #666666;
+    font-family: 'Lato', sans-serif, Arial, Verdana, 'Trebuchet MS';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(images/1500x970.jpg);
+    background-size: cover;
+    background-position: center; */
+}
+
+
+
+/* nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.navbar-brand {
+    float: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.navbar-nav {
+    padding-top: 21px;
+    float: right !important;
+    margin-right: -15px;
+}
+
+li {
+    font-family: 'Lato', sans-serif, Arial, Verdana, 'Trebuchet MS';
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.mar {
+    background-image: url(images/1500x970.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    margin-right: 350px;
+}
+
+.navbar-nav {
+    padding: 1px 0;
+    margin-right: 0;
+}
+
+.navbar-nav li {
+    display: inline-block;
+    margin: 0;
+
+
+}
+
+.navbar-nav li a {
+
+    text-decoration: none;
+    color: rgb(236, 88, 55);
+    padding: 5px 0;
+    position: relative;
+}
+
+.navbar-nav li a::after {
+    content: "";
+    background: #e74d27;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.navbar-nav li a:hover::after {
+    width: 100%;
+}
+
+
+
+
+
+a:visited {
+    color: azure;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.header-div-1 {
+    padding-bottom: 250px;
+    padding-top: 250px;
+    background-image: url(images/1500x970.jpg);
+    width: 100%;
+    height: 100vh;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.btn {
+    background-color: rgb(255, 136, 57);
+    padding: 10px 20px;
+
+
+}
+
+.btn:hover {
+    width: 500px;
+
+}
+
+.mo {
+    width: 1170px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1 {
+    color: #333333;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+    font-family: 'Ubuntu', serif;
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

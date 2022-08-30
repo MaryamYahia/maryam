@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: "poppins", sans-serif; */
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-image: url(images/pexels-garvin-st-villier-3972750.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px;
+}
+
+h1 {
+    padding-top: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 200px;
+    line-height: 100px;
+
+}
+
+.btn {
+    border: 1px solid;
+    background-color: red;
+}
+
+.text-white {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(153, 151, 148);
+}
+
+.m {
+    background-color: rgb(220, 226, 230);
+    opacity: 2;
+}
