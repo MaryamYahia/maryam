@@ -16,7 +16,7 @@ main {
 
 
 
-.row {
+.ro {
     padding-top: 200px;
     padding-left: 100px;
     justify-content: center;
@@ -48,8 +48,31 @@ b {
 }
 
 .col-md-8 {
-
+    margin-left: 50px;
     background: #f8f9fa;
     border-top-left-radius: 10% 50%;
     border-bottom-left-radius: 10% 50%;
+}
+
+.ma {
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 640px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    border: 1px #02a6cf solid;
+    border-radius: 36%;
+    background-color: rgb(109, 109, 255);
+}
+
+.nq {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(109, 109, 255);
+}
+
+.nq:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: rgb(109, 109, 255);
 }
